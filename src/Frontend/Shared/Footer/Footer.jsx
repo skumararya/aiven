@@ -5,6 +5,27 @@ import FooterNav from "./FooterNav.jsx";
 const Footer = () => {
   return (
    <>
+   <div class="office-locations-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-3 col-lg-3 heading-bg">
+						<div class="heading-sec">
+							<div>
+								<h2 class="all_heading text-white m-0">Office Locations</h2>
+							</div>						
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-9 col-lg-9">
+						<ul class="location_icon">
+							<li><a href="#"><span class="material-symbols-outlined">location_on</span> Ranchi</a></li>
+							<li><a href="#"><span class="material-symbols-outlined">location_on</span> Bangalore</a></li>
+							<li><a href="#"><span class="material-symbols-outlined">location_on</span> West Bengal</a></li>
+							<li><a href="#"><span class="material-symbols-outlined">location_on</span> Chhattisgarh</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
    <footer>
 			<div class="footer-sec">
 				<div class="container">

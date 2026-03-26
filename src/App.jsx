@@ -6,6 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 // import AdminLayout from "./Admin/AdminLayout.jsx";
 import Spinner from "./Frontend/Container/Spinner.jsx";
 import Layout from "./Frontend/Layout.jsx";
+import Login from "./Frontend/Container/Login.jsx";
 
 const App = () => {
   const { fontSize } = useSelector((state) => state.ui);
@@ -19,7 +20,7 @@ const App = () => {
       />
       <Routes>
         <Route path="/*" element={<Layout />} />
-       
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );

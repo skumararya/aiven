@@ -16,14 +16,6 @@ const Home = () => {
 	  <WelcomeSection />
 	  <Services />
        <OurCources />
-	   
-	   {/*
-     
-      
-       */}
-    
-
-
 
 <EventEngagement />
 <ClientEngagement />    

@@ -14,7 +14,7 @@
 @font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:100;src:url('../fonts/noto-sans-v36-latin-100.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:100;src:url('../fonts/noto-sans-v36-latin-100italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:200;src:url('../fonts/noto-sans-v36-latin-200.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:200;src:url('../fonts/noto-sans-v36-latin-200italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:300;src:url('../fonts/noto-sans-v36-latin-300.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:300;src:url('../fonts/noto-sans-v36-latin-300italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:400;src:url('../fonts/noto-sans-v36-latin-regular.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:400;src:url('../fonts/noto-sans-v36-latin-italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:500;src:url('../fonts/noto-sans-v36-latin-500.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:500;src:url('../fonts/noto-sans-v36-latin-500italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:600;src:url('../fonts/noto-sans-v36-latin-600.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:600;src:url('../fonts/noto-sans-v36-latin-600italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:700;src:url('../fonts/noto-sans-v36-latin-700.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:700;src:url('../fonts/noto-sans-v36-latin-700italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:800;src:url('../fonts/noto-sans-v36-latin-800.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:800;src:url('../fonts/noto-sans-v36-latin-800italic.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:normal;font-weight:900;src:url('../fonts/noto-sans-v36-latin-900.woff2') format('woff2')}@font-face{font-display:swap;font-family:'Noto Sans';font-style:italic;font-weight:900;src:url('../fonts/noto-sans-v36-latin-900italic.woff2') format('woff2')}
 @font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-BlackItalic.woff2) format('woff2'),url(../fonts/SourceSans3-BlackItalic.woff) format('woff');font-weight:900;font-style:italic;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-Black.woff2) format('woff2'),url(../fonts/SourceSans3-Black.woff) format('woff');font-weight:900;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-BoldItalic.woff2) format('woff2'),url(../fonts/SourceSans3-BoldItalic.woff) format('woff');font-weight:700;font-style:italic;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-Bold.woff2) format('woff2'),url(../fonts/SourceSans3-Bold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-ExtraBold.woff2) format('woff2'),url(../fonts/SourceSans3-ExtraBold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-ExtraBoldItalic.woff2) format('woff2'),url(../fonts/SourceSans3-ExtraBoldItalic.woff) format('woff');font-weight:700;font-style:italic;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-ExtraLight.woff2) format('woff2'),url(../fonts/SourceSans3-ExtraLight.woff) format('woff');font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-ExtraLightItalic.woff2) format('woff2'),url(../fonts/SourceSans3-ExtraLightItalic.woff) format('woff');font-weight:200;font-style:italic;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-Italic.woff2) format('woff2'),url(../fonts/SourceSans3-Italic.woff) format('woff');font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-Light.woff2) format('woff2'),url(../fonts/SourceSans3-Light.woff) format('woff');font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-LightItalic.woff2) format('woff2'),url(../fonts/SourceSans3-LightItalic.woff) format('woff');font-weight:300;font-style:italic;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-Medium.woff2) format('woff2'),url(../fonts/SourceSans3-Medium.woff) format('woff');font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-MediumItalic.woff2) format('woff2'),url(../fonts/SourceSans3-MediumItalic.woff) format('woff');font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-Regular.woff2) format('woff2'),url(../fonts/SourceSans3-Regular.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-SemiBold.woff2) format('woff2'),url(../fonts/SourceSans3-SemiBold.woff) format('woff');font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Source Sans 3';src:url(../fonts/SourceSans3-SemiBoldItalic.woff2) format('woff2'),url(../fonts/SourceSans3-SemiBoldItalic.woff) format('woff');font-weight:600;font-style:italic;font-display:swap}
 @font-face{font-family:'Roboto';src:url(../fonts/Roboto-BlackItalic.woff2) format('woff2'),url(../fonts/Roboto-BlackItalic.woff) format('woff');font-weight:900;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-Bold.woff2) format('woff2'),url(../fonts/Roboto-Bold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-Black.woff2) format('woff2'),url(../fonts/Roboto-Black.woff) format('woff');font-weight:900;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-ExtraLightItalic.woff2) format('woff2'),url(../fonts/Roboto-ExtraLightItalic.woff) format('woff');font-weight:200;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-ExtraLight.woff2) format('woff2'),url(../fonts/Roboto-ExtraLight.woff) format('woff');font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-Italic.woff2) format('woff2'),url(../fonts/Roboto-Italic.woff) format('woff');font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-ExtraBold.woff2) format('woff2'),url(../fonts/Roboto-ExtraBold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-ExtraBoldItalic.woff2) format('woff2'),url(../fonts/Roboto-ExtraBoldItalic.woff) format('woff');font-weight:700;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-BoldItalic.woff2) format('woff2'),url(../fonts/Roboto-BoldItalic.woff) format('woff');font-weight:700;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-Thin.woff2) format('woff2'),url(../fonts/Roboto-Thin.woff) format('woff');font-weight:100;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-MediumItalic.woff2) format('woff2'),url(../fonts/Roboto-MediumItalic.woff) format('woff');font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-Medium.woff2) format('woff2'),url(../fonts/Roboto-Medium.woff) format('woff');font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-Light.woff2) format('woff2'),url(../fonts/Roboto-Light.woff) format('woff');font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-Regular.woff2) format('woff2'),url(../fonts/Roboto-Regular.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-SemiBoldItalic.woff2) format('woff2'),url(../fonts/Roboto-SemiBoldItalic.woff) format('woff');font-weight:600;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-LightItalic.woff2) format('woff2'),url(../fonts/Roboto-LightItalic.woff) format('woff');font-weight:300;font-style:italic;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-SemiBold.woff2) format('woff2'),url(../fonts/Roboto-SemiBold.woff) format('woff');font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Roboto';src:url(../fonts/Roboto-ThinItalic.woff2) format('woff2'),url(../fonts/Roboto-ThinItalic.woff) format('woff');font-weight:100;font-style:italic;font-display:swap}
-body{background:#f9fafc;font-family:'Poppins';font-size:1rem}a{text-decoration:none}h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}li{list-style:none}body a{text-decoration:none;}
+body{background:#f9fafc;font-family:'Poppins';font-size:1rem}body a{text-decoration:none}h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}li{list-style:none}
 /* Edn font face */
 /* Custom CSS Start */
 .heading-sec{display:flex;justify-content:space-between;gap:30px}
@@ -24,7 +24,7 @@ body{background:#f9fafc;font-family:'Poppins';font-size:1rem}a{text-decoration:n
 .all_heading{font-family:'Roboto';color:var(--FourColor);font-size:2rem;font-weight:600;display:flex;align-items:start;flex-direction:column;margin-bottom:10px;position:relative;gap:5px}
 .underline-bg{width:48px;height:3px;background:var(--OneColor);display:block;margin-bottom:15px}
 .quick-btn i{font-size:12px;margin-left:10px}
-a.quick-btn,button.quick-btn,.quick-btn {width:max-content;min-width:max-content;white-space:nowrap;display:inline-block;border: 1px solid var(--OneColor);border-radius:5px;color:var(--SixColor);background:var(--OneColor);font-size:.875rem;padding:9px 25px;transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;position:relative;overflow:hidden;line-height:normal;font-weight:600}
+a.quick-btn,button.quick-btn,.quick-btn  {width:max-content;min-width:max-content;white-space:nowrap;display:inline-block;border: 1px solid var(--OneColor);border-radius:5px;color:var(--SixColor);background:var(--OneColor);font-size:.875rem;padding:9px 25px;transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;position:relative;overflow:hidden;line-height:normal;font-weight:600}
 .green-btn{background:var(--FiveColor);color:var(--GrayColor);border:1px solid var(--TwoColor)}
 .quick-btn:before{left:-20px;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}
 .quick-btn:after{right:-20px;-webkit-transform:translate(50%, -50%);transform:translate(50%, -50%)}
@@ -33,8 +33,28 @@ a.quick-btn,button.quick-btn,.quick-btn {width:max-content;min-width:max-content
 .quick-btn:hover{color: #fff;z-index:1}
 .quick-btn:hover:before{-webkit-animation:criss-cross-left 0.8s both;animation:criss-cross-left 0.8s both;-webkit-animation-direction:alternate;animation-direction:alternate}
 .quick-btn:hover:after{-webkit-animation:criss-cross-right 0.8s both;animation:criss-cross-right 0.8s both;-webkit-animation-direction:alternate;animation-direction:alternate}
+
+.login-btn i{font-size:12px;margin-left:10px}
+.buttonsec .login-btn {width:max-content;min-width:max-content;white-space:nowrap;display:inline-block;border: 1px solid var(--TwoColor);border-radius:5px;color:var(--FiveColor);background:var(--TwoColor);font-size:.875rem;padding:6px 15px;transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;position:relative;overflow:hidden;line-height:normal;font-weight:600}
+.green-btn,a.green-btn{background:var(--FiveColor);color:var(--GrayColor);border:1px solid var(--TwoColor)}
+.login-btn:before{left:-20px;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}
+.login-btn:after{right:-20px;-webkit-transform:translate(50%, -50%);transform:translate(50%, -50%)}
+.login-btn:before, .login-btn:after{position:absolute;top:50%;content:"";width:20px;height:20px;background:var(--OneColor);border-radius:50%;}
+.login-btn:after, .login-btn:before{z-index:-1;transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s}
+.login-btn:hover{color: #fff;z-index:1}
+.login-btn:hover:before{-webkit-animation:criss-cross-left 0.8s both;animation:criss-cross-left 0.8s both;-webkit-animation-direction:alternate;animation-direction:alternate}
+.login-btn:hover:after{-webkit-animation:criss-cross-right 0.8s both;animation:criss-cross-right 0.8s both;-webkit-animation-direction:alternate;animation-direction:alternate}
+.buttonsec{display: flex; justify-content: end;
+    align-items: center;
+    gap: 15px;}
+
 @keyframes criss-cross-left{0%{left:-20px}50% {left:50%;width:20px;height:20px}100%{left:50%;width:375px;height:375px}}
 @keyframes criss-cross-right{0%{right:-20px}50%{right:50%;width:20px;height:20px}100%{right:50%;width:375px;height:375px}}
+
+
+
+
+
 /* Custom CSS End */
 /* Header Section css Start */
 header.header_section{background:#fff;padding:10px 0}
@@ -43,9 +63,9 @@ header.header_section.is-sticky{position:fixed;top:0;left:0;right:0;z-index:100;
 .top_logo_s a{display:flex;align-items:center;gap:10px}
 .logo_box_cust:focus-visible{outline:0}
 .logo_cust_text span{font-weight:600;font-size:2rem;line-height:normal;display:block;font-style:normal;color:var(--SevenColor)}
-.logo_box_cust img {width:45px;object-fit:contain}
+.logo_box_cust img {width:120px;object-fit:contain}
 .cust_row_header{align-items:center}
-.flex_item_box-inner_login_btn{display:flex;justify-content:end;align-items:center;gap:50px}
+.flex_item_box-inner_login_btn{display:flex;justify-content:end;align-items:center;gap:70px}
 /* Header Section css End */
 /* Main nav css Start */
 nav.navbar{padding:0}
@@ -147,7 +167,9 @@ a.custom_child_menu{display:flex!important;align-items:center;justify-content:ce
 /* Our Services Section CSS End */
 /* Our Courses Section CSS Start */
 .our-courses-sec{padding:50px 0}
-.our-courses-sec .nav-pills{justify-content:center;gap:0 7px;margin-bottom:10px}
+.courses-programs-page .heading-sec p{color:var(--GrayColor)}
+.our-courses-sec .nav-pills{justify-content:center;gap:0 7px;margin-bottom:10px;padding-left:0}
+.our-courses-sec .nav-pills li.nav-item{list-style:none}
 .our-courses-sec .nav-pills li a{display:inline-block;border:1px solid var(--TwoColor);border-radius:5px;color:var(--SixColor);font-size:.875rem;padding:9px 25px;transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;position:relative;overflow:hidden;line-height:normal;font-weight:600}
 .our-courses-sec .nav-pills li a.active{background:var(--TwoColor);color:var(--FiveColor)}
 .our-courses-slider{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-bottom:30px}
@@ -204,7 +226,7 @@ a.custom_child_menu{display:flex!important;align-items:center;justify-content:ce
 .gov-logo-sec .tab-content a img{margin:auto;height:85px;object-fit:contain}
 /* Gov Logo Section CSS End */
 /* Office Locations Section CSS Start */
-.office-locations-sec{background:#ffffff}
+.home-page .office-locations-sec{background:#ffffff}
 .office-locations-sec .container{position:relative;margin-bottom:-32px}
 .office-locations-sec .row{background:#F9447A;border-radius:5px;align-items:center;margin:0 100px}
 .office-locations-sec .heading-bg{background:var(--SevenColor);border-radius:5px 0 0 5px;position:relative}
@@ -244,3 +266,125 @@ footer .full-border{border-top:1px solid rgb(255 255 255 / 30%);margin-top:30px;
 .social-media-sec a{width:30px;height:30px;display:flex;align-items:center;justify-content:center;background:#fff;border-radius:100px;padding:5px;transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s}
 .social-media-sec a:hover{background:var(--OneColor);box-shadow:0 0 10px #FFCF3A}
 /* Footer Section CSS End */
+/* Inner Banner Section css Start */
+.inner_bannr_bg{background:url(../images/inner-banner.jpg) no-repeat;background-position:bottom center;background-size:cover;padding:50px 0 45px;position:relative;width:100%;overflow:hidden}
+.inner_bannr_bg:before{content:"";width:100%;height:100%;display:block;position:absolute;top:0;background:linear-gradient(256.22deg, #7B0B66 11.59%, rgba(239, 114, 216, 0) 42.51%, #5F338A 72.26%);opacity:.8}
+.inner_bannr_bg .row{align-items:center}
+.inner_bannr_bg .all_heading{margin:0;color:var(--FiveColor)}
+.bread_crumbs{display:flex;align-items:center;justify-content:end;z-index:1;position:relative}
+.bread_crumbs .breadcrumb{margin:0;padding:0;display:flex;align-items:center}
+.bread_crumbs .breadcrumb li{font-size:.875rem;color:#e5e5e5;display:flex;font-style:italic}
+.bread_crumbs .breadcrumb li a{color:#fff;font-style:normal}
+li.breadcrumb-item.active:before{content:'\eac9';font-family:'Material Symbols Outlined';font-size:16px;font-style:normal;color:#fff;line-height:normal}
+/* Inner Banner Section css End */
+/* Main Content Section CSS Start */
+.main-content-area{position:relative;overflow:hidden}
+.main-content-area:before{content:'';background:url(../images/about-page-bg-1.png) no-repeat;background-size:contain;background-position:top left;position:absolute;top:-50px;left:0;width:15%;height:100%;z-index:-1}
+.main-content-area:after{content:'';background:url(../images/about-page-bg-2.png) no-repeat;background-size:contain;background-position:bottom right;position:absolute;top:200px;right:0;width:400px;height:800px;z-index:-1}
+.main-content-area p{font-size:1rem;line-height:28px;margin-bottom:15px}
+/* Main Content Section CSS End */
+/* Inner About Us Section CSS Start */
+.about-inner-sec{padding:50px 0;position:relative;overflow:hidden}
+.about-inner-sec .video-sec .card-sec{margin:0 50px 0 0;width:100%;border-radius:0 68px 0 0;overflow:visible}
+.about-inner-sec .video-sec .card-sec .img-sec{overflow:hidden;border-radius:0 68px 0 0}
+.about-inner-sec .video-sec .card-sec .title-sec{position:absolute;right:20px;bottom:-50px;z-index:1;background:rgba(187, 0, 100, 1);color:#fff;padding:30px;border-radius:5px;width:60%}
+.about-inner-sec .video-sec .card-sec .title-sec:before{content:'';background:url(../images/about-page-1-v.png) no-repeat;background-size:contain;background-position:bottom right;position:absolute;right:0;bottom:0;width:40%;height:100%;z-index:-1}
+.about-inner-sec .video-sec .card-sec .title-sec .all_heading{color:var(--FiveColor);margin-bottom:15px}
+.about-inner-sec .video-sec .card-sec .title-sec .video-play{position:initial;width:auto;height:auto;background:transparent;color:var(--FiveColor);font-size:.875rem;gap:10px;justify-content:start}
+.about-inner-sec .video-sec .card-sec .title-sec .video-play .material-symbols-outlined{font-weight:200;font-size:50px}
+ul.list-view{padding-left:28px;font-size:.875rem;line-height:28px;margin-bottom:15px}
+ul.list-view li{list-style-type:disc}
+/* Inner About Us Section CSS End */
+/* Vision & Mission Section CSS Start */
+.vision-mission-sec{padding:100px 0 0}
+.vision-mission-box{padding:30px 20px;position:relative;border-radius:0 0 0 30px;overflow:hidden;height:100%}
+.vision-mission-box:before{content:'';width:100%;height:0;background:url(../images/vision-mission-bg.png) no-repeat;background-size:cover;position:absolute;bottom:0;left:0;right:0;margin:auto;transition:all 0.4s ease-out 0s, visibility 0.1s linear 0s}
+.vision-mission-box:hover:before{height:100%}
+.vision-mission-box:after{content:'';width:100%;height:0;background:rgb(255 207 58 / 88%);position:absolute;top:0;left:0;right:0;margin:auto;transition:all 0.2s ease-out 0s, visibility 0.1s linear 0s}
+.vision-mission-box:hover:after{height:100%}
+.vision-mission-box img{width:60px;margin-bottom:10px;z-index:1;position:relative}
+.vision-mission-box .heading-sec{z-index:1;position:relative}
+.vision-mission-box p{z-index:1;position:relative;margin:0;line-height:30px}
+.vision-mission-box p:last-child{margin-bottom:0}
+.vision-mission-box:hover img{filter:brightness(0)}
+.vision-mission-box:hover .underline-bg{background:var(--SevenColor)}
+/* Vision & Mission Section CSS End */
+/* Choose & Faq Section CSS Start */
+.choose-faq-sec{position:relative}
+.choose-faq-sec:before{content:'';background:url(../images/choose-faq-bg.jpg) no-repeat;background-size:cover;background-position:bottom center;position:absolute;top:0;left:0;width:50%;height:100%}
+.choose-faq-sec:after{content:'';background:url(../images/choose-faq-bg.jpg) no-repeat;background-size:cover;background-position:bottom center;position:absolute;top:0;right:0;width:50%;height:100%}
+.choose-faq-bg:before{content:'';background:rgba(246, 58, 112, 0.87);position:absolute;top:0;left:0;width:50%;height:100%;z-index:1}
+.choose-faq-bg:after{content:'';background:rgba(41, 168, 154, 0.87);position:absolute;top:0;right:0;width:50%;height:100%;z-index:1}
+.choose-faq-sec .row{z-index:2;position:relative}
+.choose-us-sec{padding:60px 100px 60px 0}
+.choose-faq-sec .all_heading{color:var(--FiveColor)}
+.choose-us-sec ul{padding-left:18px;color:#fff}
+.choose-us-sec ul li{margin-bottom:25px}
+.choose-us-sec ul li:last-child{margin-bottom:0}
+.faq-sec{padding:60px 0px 60px 40px}
+.faq-sec .card{background:rgba(37, 133, 121, 1);border:1px solid rgba(249, 250, 252, 0.18);margin-bottom:10px;color:var(--FiveColor)}
+.faq-sec .card .card-header{border:0;padding:10px 15px}
+.faq-sec .card .card-header a{font-size:1.125rem;font-weight:500;padding:0;display:flex;align-items:center;justify-content:space-between;color:var(--FiveColor)}
+.faq-sec .card .card-header a .material-symbols-outlined{font-size:1rem}
+.faq-sec .card .card-header a[aria-expanded="true"] .material-symbols-outlined{transform:rotate(180deg)}
+.faq-sec .card .card-body{background:rgba(44, 164, 150, 1);font-size:.875rem;line-height:28px}
+.faq-sec .card .card-body p{font-size:.875rem;line-height:28px}
+.faq-sec .card .card-body p:last-child{margin:0}
+/* Choose & Faq Section CSS End */
+/* Our Team Section CSS Start */
+.our-team-sec{padding:50px 0 50px}
+.our-team-sec .card-sec{overflow:hidden;border-radius:10px;background:#FFF;box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.10);transition:all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s}
+.our-team-sec .card-sec:hover{-webkit-transform:translateY(calc(-1.5rem / 5));transform:translateY(calc(-1.5rem / 5))}
+.our-team-sec .card-sec .img-sec{overflow:hidden;border-radius:10px 10px 0 0px}
+.our-team-sec .card-sec .img-sec img{width:100%;height:300px;object-fit:cover;transition:0.4s ease-out, visibility 0.1s linear}
+.our-team-sec .card-sec .desc-sec{padding:20px 30px}
+.our-team-sec .card-sec .desc-sec .title{font-size:1.125rem;font-weight:600;color:var(--FourColor);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;text-overflow:ellipsis;overflow:hidden}
+.our-team-sec .card-sec .desc-sec .rating{display:flex;align-items:center;justify-content:start;color:var(--GrayColor);font-size:.875rem;gap:60px;margin:10px 0 0}
+/* Our Team Section CSS End */
+/*login css*/
+.loginWrap { background:#b140eb url(../images/login-bg.jpg) left top no-repeat; background-size:cover; width:100%; height:100vh; position:relative; }
+.loginBox { height:492px; width:900px; position:absolute; left:50%; top:50%; margin:0 auto; margin-left:-450px; margin-top:-246px; background:#fff; border-radius:4px; overflow:hidden; }
+.loginImg { width:41%; float:right; }
+.loginFields { width:59%; float:left; padding:30px 50px; }
+.loginFields .logo { padding:0px 0 34px; }
+.loginInputs { padding-bottom:10px; }
+.loginInputs label { display:inline-block; }
+.loginInputs .fieldOuter { display:block; }
+.loginBtn { background: #f7a041; color:#fff; text-decoration:none; text-transform:uppercase; border-radius:4px; box-shadow:2px 2px 2px #d1d1d1; padding:10px 21px!important; display:inline-block;border: none; 
+  /* font-family: 'open_sanssemibold';  */
+  line-height:inherit!important; transition: all 0.3s; background: -moz-linear-gradient(left, #f7a041 0%, #f9597b 100%); background: -webkit-linear-gradient(left, #f7a041 0%, #f9597b 100%); background: linear-gradient(to right, #f7a041 0%, #f9597b 100%); vertical-align: middle;  position: relative;  -webkit-transition-property: color;  transition-property: color;  -webkit-transition-duration: 0.3s;  transition-duration: 0.3s;  -webkit-transform: perspective(1px) translateZ(0);  transform: perspective(1px) translateZ(0);}
+.loginBtn:before { content: "";  position: absolute;  z-index: -1;  top: 0;  left: 0;  right: 0;  bottom: 0;  background: #f9597b;  -webkit-transform: scaleX(0);  transform: scaleX(0);  -webkit-transform-origin: 0 50%;  transform-origin: 0 50%;  -webkit-transition-property: transform;  transition-property: transform;  -webkit-transition-duration: 0.3s;  transition-duration: 0.3s;  -webkit-transition-timing-function: ease-out;  transition-timing-function: ease-out;  border-radius:4px;}
+.loginBtn:hover:before, .loginBtn:focus:before, .loginBtn:active:before {  -webkit-transform: scaleX(1); transform: scaleX(1);}
+
+.registerBtn { background: #000000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #d1d1d1;
+    padding: 10px 25px!important;
+    display: inline-block;
+    /* font-family: 'open_sanssemibold'; */
+    line-height: inherit!important;
+    transition: all 0.3s;
+    background: -moz-linear-gradient(left, #f7a041 0%, #f9597b 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #484344 100%);
+    background: linear-gradient(to right, #000000 0%, #484344 100%);
+    vertical-align: middle;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    margin-left: 10px;}
+.registerBtn:before { content: "";  position: absolute;  z-index: -1;  top: 0;  left: 0;  right: 0;  bottom: 0;  background: #f9597b;  -webkit-transform: scaleX(0);  transform: scaleX(0);  -webkit-transform-origin: 0 50%;  transform-origin: 0 50%;  -webkit-transition-property: transform;  transition-property: transform;  -webkit-transition-duration: 0.3s;  transition-duration: 0.3s;  -webkit-transition-timing-function: ease-out;  transition-timing-function: ease-out;  border-radius:4px;}
+.registerBtn:hover:before, .loginBtn:focus:before, .loginBtn:active:before {  -webkit-transform: scaleX(1); transform: scaleX(1);}
+
+.forgotLink { float:right; padding-top:12px;  display:inline-block; font-style:italic;  }
+input[type="text"]:focus, input[type="password"]:focus { box-shadow:0px 0px 2px 0px #7f47d5;}
+.passIco{ position:relative;}
+.passIco:before{ width:26px; height:18px; background:url(../images/icons.png) -139px -36px no-repeat; position:absolute; right:10px; top:16px; content:" ";}
+.loginBox .loginBtn:hover{ /*background:#7d46d3;*/ color:#fff;}
+.mrgT20 { margin-top:20px; }
