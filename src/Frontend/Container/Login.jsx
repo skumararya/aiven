@@ -1,6 +1,24 @@
 import React from "react";
-
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "../../../public/css/style.css"
 const Login = () => {
+  const [username, setUsername] = useState("");
+const [password, setPassword] = useState("");
+const [error, setError] = useState("");
+
+const navigate = useNavigate();
+const handleLogin = (e) => {
+  e.preventDefault();
+
+  if (username === "student" && password === "Password@123") {
+    setError("Wrong credential");
+    navigate("/studentadmin"); // ✅ redirect
+  } else {
+    setError("Invalid username or password");
+  }
+};
+
   return (
     <>
       <div className="loginWrap">
@@ -12,15 +30,23 @@ const Login = () => {
             </div>
 
             {/* LOGIN FORM */}
-            <form>
+            <form onSubmit={handleLogin}>
               <div className="form-group">
                 <label>Username</label>
-                <input type="text" className="form-control" placeholder="Enter Username" />
+                <input
+                 value={username}
+  onChange={(e) => setUsername(e.target.value)}
+                type="text" className="form-control" placeholder="Enter Username" />
+                {error && <p style={{ color: "red" }}>{error}</p>}
               </div>
 
               <div className="form-group mrgT20">
                 <label>Password</label>
-                <input type="password" className="form-control" placeholder="Enter Password" />
+                <input
+                value={password}
+  onChange={(e) => setPassword(e.target.value)}
+                type="password" className="form-control" placeholder="Enter Password" />
+                {error && <p style={{ color: "red" }}>{error}</p>}
               </div>
 
               <div className="mrgT20">

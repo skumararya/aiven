@@ -4,7 +4,8 @@ import React from "react";
 import Header from "./Shared/Header/Header.jsx";
 import Footer from "./Shared/Footer/Footer.jsx";
 import AppRouting from "./AppRouting.jsx";
-
+import "../../public/css/style.css";
+import "../../public/css/owl.carousel.min.css";
 const Layout = () => {
   return (
     <>
