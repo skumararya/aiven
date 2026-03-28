@@ -72,7 +72,7 @@ const Header = () => {
 							
 							<div class="buttonsec">
 							<a href="#" class="btn quick-btn">Get Started</a>
-							<Link to={"/login"} class="btn login-btn">Login</Link>
+							<Link target="_blank" rel="noopener noreferrer" to={"/login"} class="btn login-btn">Login</Link>
 							</div>
 							<div class="flex_item_box d-block d-lg-none custom_menu_mobile_tab">
 								<button class="navbar-toggler" type="button" data-bs-toggle="collapse"

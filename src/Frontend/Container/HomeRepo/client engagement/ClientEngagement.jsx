@@ -1,6 +1,39 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 const ClientEngagement = () => {
+
+
+	 useEffect(() => {
+		if (window.$) {
+		  const owl = window.$("#clients-impact-slider");
+	
+		  owl.owlCarousel({
+			items: 1,
+			loop: true,
+			margin: 15,
+			autoplay: true,
+			autoplayTimeout: 4000,
+			autoplaySpeed: 3000,
+			autoplayHoverPause: true,
+			nav: false,
+			responsive: {
+			  0: { items: 1 },
+			  600: { items: 1 },
+			  992: { items: 1 },
+			  1199: { items: 1 }
+			}
+		  });
+	
+		  // Prev / Next
+		  window.$(".owl-prev").click(function () {
+			owl.trigger("prev.owl.carousel");
+		  });
+	
+		  window.$(".owl-next").click(function () {
+			owl.trigger("next.owl.carousel");
+		  });
+		}
+	  }, []);
   return (
     <>
        <div class="clients-impact-sec">
@@ -65,9 +98,9 @@ const ClientEngagement = () => {
 							<div class="btn-sec mt-5">
 								<a href="#" class="btn quick-btn">View All</a>
 								<div class="owl-nav">
-									<button type="button" class="owl-prev2"><span class="material-symbols-outlined">arrow_left_alt</span></button>
+									<button type="button" class="owl-prev"><span class="material-symbols-outlined">arrow_left_alt</span></button>
 							
-									<button type="button" class="owl-next2"><span class="material-symbols-outlined">arrow_right_alt</span></button>
+									<button type="button" class="owl-next"><span class="material-symbols-outlined">arrow_right_alt</span></button>
 								</div>
 							</div>
 						</div>

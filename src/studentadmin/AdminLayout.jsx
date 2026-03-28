@@ -3,7 +3,7 @@ import '../../public/css/sadmin/css/bootstrap-icons.min.css';
 import '../../public/css/sadmin/css/datatables.min.css';
 import '../../public/css/sadmin/css/style.css';
 import '../../public/css/sadmin/css/material-symbols-outlined.css';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const AdminLayout = () => {
   return (
   <>
@@ -12,7 +12,7 @@ const AdminLayout = () => {
     <div className="container-fluid">
       <div className="navbar navbar-expand-xl  ">
         <div className="inner_header_registration">
-          <a className="logo-align" href="dashboard.html">
+          <a className="logo-align" onClick={(e) => {e.preventDefault();}} href="#">
             <div className="brand-img">
               <img src="images/sadmin-img/logo.svg" alt="Logo" />
             </div>
@@ -20,7 +20,7 @@ const AdminLayout = () => {
           </a>
         </div>
         <div className="brand-name">
-          <a href="#" className="menu-toggle menu_sidebar_box"><span className="material-symbols-outlined bx-menu">menu</span></a>
+          <a href="#" onClick={(e) => {e.preventDefault();}} className="menu-toggle menu_sidebar_box"><span className="material-symbols-outlined bx-menu">menu</span></a>
            
         </div>
         <div className="right_section fordesktop">
@@ -67,22 +67,22 @@ const AdminLayout = () => {
             <ul className="nav-links main-menu">
               <li>
                 <div className="icon-link">
-                  <a href="dashboard.html">
+                  <NavLink className={"active"} to={"/"} onClick={(e) => {e.preventDefault();}}>
                     <span className="material-symbols-outlined">speed</span>
                     <span className="link_name">Dashboard</span>
-                  </a>
+                  </NavLink>
                 </div>
                
                 <ul className="sub-menu">
-                  <li className="link_name"><a href="dashboard.html">Dashboard</a></li>
+                  <li className="link_name"><NavLink to={"/"}>Dashboard</NavLink></li>
                 </ul>
               </li>
               <li>
                 <div className="icon-link">
-                  <a href="courses.html">
+                  <NavLink to={"/"} onClick={(e) => {e.preventDefault();}}>
                     <span className="material-symbols-outlined">book_2</span>
                     <span className="link_name">Courses</span>
-                  </a>
+                  </NavLink>
                 </div>
                 
                 <ul className="sub-menu">
@@ -91,7 +91,7 @@ const AdminLayout = () => {
               </li>
               <li>
                 <div className="icon-link">
-                  <a href="#" className="menu-toggle">
+                  <a href="#" onClick={(e) => {e.preventDefault();}} className="menu-toggle">
                     <span className="material-symbols-outlined">person_play</span>
                     <span className="link_name">Activities </span>
                   </a>
@@ -103,7 +103,7 @@ const AdminLayout = () => {
               </li>
               <li>
                 <div className="icon-link">
-                  <a href="#" className="menu-toggle">
+                  <a href="#" onClick={(e) => {e.preventDefault();}} className="menu-toggle">
                     <span className="material-symbols-outlined">settings</span>
                     <span className="link_name">Settings</span>
                   </a>

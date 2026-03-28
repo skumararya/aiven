@@ -588,14 +588,14 @@ header.navbar_custom .container-fluid {
     display: block;
 }
 
-.main-menu-sec .active-parent a, .main-menu-sec li a:hover {
+.main-menu-sec .active-parent a, .main-menu-sec li a.active,.main-menu-sec li a:hover {
     color: #000000 !important;
     background: #F2B705;
 }
 .main-menu-sec .active-parent, .main-menu-sec li:hover, .main-menu-sec .showMenu {
     border-bottom: 1px solid #e6e6e600 !important;
 }
-.main-menu-sec .active-parent a .material-symbols-outlined, .main-menu-sec li a:hover .material-symbols-outlined{
+.main-menu-sec .active-parent a .material-symbols-outlined, .main-menu-sec li a.active .material-symbols-outlined, .main-menu-sec li a:hover .material-symbols-outlined{
     color: #000000 !important;
 }
 .row.form_dashboard {

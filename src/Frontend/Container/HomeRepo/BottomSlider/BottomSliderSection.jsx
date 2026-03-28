@@ -1,7 +1,30 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 const BottomSlider = () => {
- 
+  useEffect(() => {
+		if (window.$) {
+		  const owl = window.$(".owl-carousel");
+	
+		  owl.owlCarousel({
+			items: 5,
+			loop: true,
+			margin: 15,
+			autoplay: true,
+			autoplayTimeout: 4000,
+			autoplaySpeed: 3000,
+			autoplayHoverPause: true,
+			nav: false,
+			responsive: {
+			  0: { items: 1 },
+			  600: { items: 1 },
+			  992: { items: 1 },
+			  1199: { items: 5 }
+			}
+		  });
+	
+		 
+		}
+	  }, []);
 
   return (
     <>

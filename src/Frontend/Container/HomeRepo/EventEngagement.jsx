@@ -1,64 +1,97 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 const EventEngagement = () => {
+
+	 useEffect(() => {
+    if (window.$) {
+      const owl = window.$("#events-engagements-slider");
+
+      owl.owlCarousel({
+        items: 2,
+        loop: true,
+        margin: 15,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: true,
+        nav: false,
+        responsive: {
+          0: { items: 1 },
+          600: { items: 1 },
+          992: { items: 1 },
+          1199: { items: 2 }
+        }
+      });
+
+      // Prev / Next
+      window.$(".owl-prev").click(function () {
+        owl.trigger("prev.owl.carousel");
+      });
+
+      window.$(".owl-next").click(function () {
+        owl.trigger("next.owl.carousel");
+      });
+    }
+  }, []);
+
   return (
     <>
      
-<div class="events-engagements-sec">
-			<div class="container">
-				<div class="row gy-3">
-					<div class="col-12 col-sm-12 col-md-4 col-lg-4 z-index mt-5">
-						<div class="heading-sec mt-5">
+<div className="events-engagements-sec">
+			<div className="container">
+				<div className="row gy-3">
+					<div className="col-12 col-sm-12 col-md-4 col-lg-4 z-index mt-5">
+						<div className="heading-sec mt-5">
 							<div>
-								<h2 class="all_heading text-white">Events &<br/>Engagements</h2>
-								<span class="underline-bg"></span>
+								<h2 className="all_heading text-white">Events &<br/>Engagements</h2>
+								<span className="underline-bg"></span>
 							</div>
 							<p>Creating Spaces to Connect, Learn, and Grow</p>
-							<div class="btn-sec mt-3">
-								<a href="#" class="btn quick-btn">View All</a>
-								<div class="owl-nav">
-									<button type="button" class="owl-prev"><span class="material-symbols-outlined">arrow_left_alt</span></button>
+							<div className="btn-sec mt-3">
+								<a href="#" className="btn quick-btn">View All</a>
+								<div className="owl-nav">
+									<button type="button" className="owl-prev"><span className="material-symbols-outlined">arrow_left_alt</span></button>
 								
-									<button type="button" class="owl-next"><span class="material-symbols-outlined">arrow_right_alt</span></button>
+									<button type="button" className="owl-next"><span className="material-symbols-outlined">arrow_right_alt</span></button>
 								</div>
 							</div>							
 						</div>
 					</div>
-					<div class="col-12 col-sm-12 col-md-8 col-lg-8 z-index">
-						<div id="events-engagements-slider" class="owl-carousel owl-theme">
-							<div class="slider-first-row">
-								<div class="card-sec">
-									<div class="img-sec">
+					<div className="col-12 col-sm-12 col-md-8 col-lg-8 z-index">
+						<div id="events-engagements-slider" className="owl-carousel owl-theme">
+							<div className="slider-first-row">
+								<div className="card-sec">
+									<div className="img-sec">
 										<img src="images/events-engagements-1.png" alt=""/>
 									</div>
-									<div class="desc-sec">
-										<a href="#">Workshops & Bootcamps <span class="material-symbols-outlined">trending_flat</span></a>
+									<div className="desc-sec">
+										<a href="#">Workshops & Bootcamps <span className="material-symbols-outlined">trending_flat</span></a>
 									</div>
 								</div>
-								<div class="card-sec">
-									<div class="img-sec">
+								<div className="card-sec">
+									<div className="img-sec">
 										<img src="images/events-engagements-2.png" alt=""/>
 									</div>
-									<div class="desc-sec">
-										<a href="#">School & College Events <span class="material-symbols-outlined">trending_flat</span></a>
+									<div className="desc-sec">
+										<a href="#">School & College Events <span className="material-symbols-outlined">trending_flat</span></a>
 									</div>
 								</div>
 							</div>
-							<div class="slider-first-row">
-								<div class="card-sec">
-									<div class="img-sec">
+							<div className="slider-first-row">
+								<div className="card-sec">
+									<div className="img-sec">
 										<img src="images/events-engagements-3.png" alt=""/>
 									</div>
-									<div class="desc-sec">
-										<a href="#">Competitions & Hackathons <span class="material-symbols-outlined">trending_flat</span></a>
+									<div className="desc-sec">
+										<a href="#">Competitions & Hackathons <span className="material-symbols-outlined">trending_flat</span></a>
 									</div>
 								</div>
-								<div class="card-sec">
-									<div class="img-sec">
+								<div className="card-sec">
+									<div className="img-sec">
 										<img src="images/events-engagements-4.png" alt=""/>
 									</div>
-									<div class="desc-sec">
-										<a href="#">Government & CSR Programs <span class="material-symbols-outlined">trending_flat</span></a>
+									<div className="desc-sec">
+										<a href="#">Government & CSR Programs <span className="material-symbols-outlined">trending_flat</span></a>
 									</div>
 								</div>
 							</div>
