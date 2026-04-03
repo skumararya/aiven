@@ -11,10 +11,20 @@ const navigate = useNavigate();
 const handleLogin = (e) => {
   e.preventDefault();
 
-  if (username === "student" && password === "Password@123") {
-    setError("Wrong credential");
-    navigate("/studentadmin"); // ✅ redirect
-  } else {
+  // ✅ Teacher login
+  if (username === "teacher" && password === "Admin@123") {
+    setError("");
+    navigate("/teacheradmin");
+  }
+
+  // ✅ Student login
+  else if (username === "student" && password === "Password@123") {
+    setError("");
+    navigate("/studentadmin");
+  }
+
+  // ❌ Invalid login
+  else {
     setError("Invalid username or password");
   }
 };

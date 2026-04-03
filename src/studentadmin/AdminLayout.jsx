@@ -4,7 +4,37 @@ import '../../public/css/sadmin/css/datatables.min.css';
 import '../../public/css/sadmin/css/style.css';
 import '../../public/css/sadmin/css/material-symbols-outlined.css';
 import { Link, NavLink } from "react-router-dom";
+import { Chart } from "react-google-charts";
+import StudentPieChart from "./charts/StudentPieChart";
 const AdminLayout = () => {
+
+  const data = [
+  ["Month", "Robotics", "Coding", "AI Fundamentals", "Computational Thinking"],
+  ["Jan", 130, 70, 50, 40],
+  ["Feb", 80, 60, 40, 30],
+  ["Mar", 120, 90, 70, 60],
+  ["Apr", 180, 140, 110, 90],
+  ["May", 140, 110, 90, 70],
+  ["Jun", 240, 190, 160, 120],
+  ["Jul", 90, 160, 120, 80],
+  ["Aug", 130, 180, 150, 110],
+  ["Sep", 160, 200, 170, 130],
+  ["Oct", 260, 80, 60, 50],
+  ["Nov", 120, 170, 130, 100],
+  ["Dec", 170, 110, 90, 70],
+];
+
+const options = {
+  title: "",
+  curveType: "function",
+  legend: { position: "bottom" },
+  pointSize: 5,
+  colors: ["#3b5bdb", "#f59f00", "#40c057", "#fa5252"],
+  chartArea: {
+    left: 30,
+    width: "100%",
+  },
+};
   return (
   <>
   <div className="noJS dashboard-page">
@@ -19,7 +49,7 @@ const AdminLayout = () => {
             
           </a>
         </div>
-        <div className="brand-name">
+        <div className="brand-name"> 
           <a href="#" onClick={(e) => {e.preventDefault();}} className="menu-toggle menu_sidebar_box"><span className="material-symbols-outlined bx-menu">menu</span></a>
            
         </div>
@@ -165,16 +195,16 @@ const AdminLayout = () => {
                         <div className="center-circle"></div>
 
                      
-                        <div className="dot green" style={{"top":"0%", "left":"50%;"}}></div>
-                        <div className="dot green" style={{"top":"10%", "left":"75%;"}}></div>
-                        <div className="dot light-green" style={{"top":"30%", "left":"90%;"}}></div>
-                        <div className="dot yellow" style={{"top":"55%", "left":"95%;"}}></div>
-                        <div className="dot yellow" style={{"top":"75%", "left":"80%;"}}></div>
-                        <div className="dot light-green" style={{"top":"90%", "left":"55%;"}}></div>
-                        <div className="dot green" style={{"top":"80%", "left":"25%;"}}></div>
-                        <div className="dot light-green" style={{"top":"60%", "left":"5%;"}}></div>
-                        <div className="dot yellow" style={{"top":"35%", "left":"10%;"}}></div>
-                        <div className="dot green" style={{"top":"15%", "left":"25%;"}}></div>
+                        <div className="dot green" style={{top:"0%", left:"50%"}}></div>
+                        <div className="dot green" style={{top:"10%", left:"75%"}}></div>
+                        <div className="dot light-green" style={{top:"30%", left:"90%"}}></div>
+                        <div className="dot yellow" style={{top:"55%", left:"95%"}}></div>
+                        <div className="dot yellow" style={{top:"75%", left:"80%"}}></div>
+                        <div className="dot light-green" style={{top:"90%", left:"55%"}}></div>
+                        <div className="dot green" style={{top:"80%", left:"25%"}}></div>
+                        <div className="dot light-green" style={{top:"60%", left:"5%"}}></div>
+                        <div className="dot yellow" style={{top:"35%", left:"10%"}}></div>
+                        <div className="dot green" style={{top:"15%", left:"25%"}}></div>
                     </div>
 
                 </div>
@@ -273,7 +303,7 @@ const AdminLayout = () => {
                 </div>
               </div>
 
-              {/* <div className="col-md-6 col-lg-6">
+               <div className="col-md-6 col-lg-6">
                 <div className="dashboad-box-BG">
                   <div className="card_sap_head border-0 pb-0">
                     <div className="heading_ico">
@@ -293,9 +323,18 @@ const AdminLayout = () => {
                       </ul>
                     </div>
                   </div>
-                  <div id="curve_chart" style="width:100%;height:300px"></div>
+                  {/* <div id="curve_chart" style="width:100%;height:300px"></div> */}
+                   <Chart
+      chartType="LineChart"
+      width="100%"
+      height="400px"
+      data={data}
+      options={options}
+      loader={<div>Loading Chart...</div>}
+    />
                 </div>
-              </div>              
+              </div>     
+                     
               <div className="col-md-6 col-lg-6">
                 <div className="dashboad-box-BG">
                   <div className="card_sap_head border-0 pb-0">
@@ -317,7 +356,8 @@ const AdminLayout = () => {
                     </div>
                   </div>
                   <div id="chartContainer" className="donut-chart-sec">
-                    <div id="chartdiv" style="width:100%;height:300px"></div>
+                    {/* <div id="chartdiv" style="width:100%;height:300px"></div> */}
+                    <StudentPieChart />
                   </div>                
                 </div>
               </div>
@@ -375,7 +415,7 @@ const AdminLayout = () => {
                     </tbody>
                   </table>
                 </div>
-              </div> */}
+              </div> 
             </div>
           </div>          
         </div>

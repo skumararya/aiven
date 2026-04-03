@@ -2565,3 +2565,7 @@ table.custom_table tbody tr td a .material-symbols-outlined {
 .our-courses-sec .card-sec .img-sec img{width:100%;height:100%;transition:all 0.4s ease-out 0s, visibility 0.1s linear 0s}
 .our-courses-sec .card-sec:hover .img-sec img{opacity:0.70;transform:scale(1.06, 1.06) rotate(2deg)}
 /* Our Courses Section CSS End */
+
+table.custom_table tbody tr.odd td {
+    background: #F5F6FA;
+}

@@ -5,6 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 // import AdminLayout from "./Admin/AdminLayout.jsx";
 import Spinner from "./Frontend/Container/Spinner.jsx";
+import TeacherAdmin from "./teacheradmin/TeacherAdmin.jsx";
 const Layout = lazy(() => import("./Frontend/Layout.jsx"));
 const Login = lazy(() => import("./Frontend/Container/Login.jsx"));
 const AdminLayout = lazy(() => import("./studentadmin/AdminLayout.jsx"));
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/*" element={<Layout />} />
         <Route path="/login" element={<Login />} />
         <Route path="/studentadmin" element={<AdminLayout />} />
+        <Route path="/teacheradmin" element={<TeacherAdmin />} />
       </Routes>
     </div>
   );
